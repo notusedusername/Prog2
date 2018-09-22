@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package szulo;
+package orokles;
 
 /**
  *
@@ -11,11 +11,21 @@ package szulo;
  */
 public class Szulo {
 
-    /**
-     * @param args the command line arguments
-     */
+    int a = 0;
+    int b = 0;
+
+
+
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Szulo szulo;
+        szulo = new Gyerek();
+        szulo.a = 1;
+        szulo.b = 1;//ezek mennek mert a Szülőnek is van a és b változója
+        //szulo.c = 1; kapásból hibát dob, mert Szülő típusú objektumnak nincs c változója
+        
+        
     }
     
 }
