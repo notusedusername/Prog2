@@ -1,0 +1,40 @@
+
+* {
+    -fx-background-color: rgb(232, 0, 143);
+    -fx-text-fill: rgb(181, 21, 119);
+}
+
+.label {
+
+    -fx-text-fill: white;
+}
+
+.tree-view {
+    -fx-padding: 5px;
+}
+
+.tree-cell {
+    -fx-background-color:lightgray; 
+}
+
+.tree-view:focused .tree-cell:filled:selected {
+    -fx-background-color: rgb(244, 83, 182);
+}
+
+.tree-cell:filled:selected{
+    -fx-background-color:darkgray; 
+}
+
+.text-area .content{
+    -fx-background-color: lightgray;
+}
+.tree-cell .tree-disclosure-node .arrow {
+
+    -fx-background-color: lightgray;
+ 
+}
+.tree-cell:expanded .tree-disclosure-node .arrow {
+
+    -fx-background-color: lightgray;
+
+}
